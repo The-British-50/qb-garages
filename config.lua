@@ -1,6 +1,6 @@
-AutoRespawn = false --True == auto respawn cars that are outside into your garage on script restart, false == does not put them into your garage and players have to go to the impound
+AutoRespawn = true --True == auto respawn cars that are outside into your garage on script restart, false == does not put them into your garage and players have to go to the impound
 SharedGarages = false   --True == Gang and job garages are shared, false == Gang and Job garages are personal
-VisuallyDamageCars = true --True == Visually damage cars that go out of the garage depending of body damage, false == Do not visually damage cars (damage is still applied to car values)
+VisuallyDamageCars = false --True == Visually damage cars that go out of the garage depending of body damage, false == Do not visually damage cars (damage is still applied to car values)
 
 Garages = {
     ["motelgarage"] = {
@@ -225,7 +225,7 @@ Garages = {
         vehicle = 'car',              --car, air, sea
         job = "cartel"
     },
-    ["police"] = {
+    --[[["police"] = {
         label = "Police",
         takeVehicle = vector3(454.6, -1017.4, 28.4),
         spawnPoint = vector4(438.4, -1018.3, 27.7, 90.0),
@@ -236,7 +236,7 @@ Garages = {
         type = 'job',                --public, job, gang, depot
         vehicle = 'car',              --car, air, sea
         job = "police"
-    },
+    },]]--
     ["intairport"] = {
         label = "Airport Hangar",
         takeVehicle = vector3(-1025.92, -3017.86, 13.95),
