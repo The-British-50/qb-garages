@@ -25,6 +25,17 @@ Garages = {
         type = 'public',                --public, job, gang, depot
         vehicle = 'car'                 --car, air, sea
     },
+    ["cougarave"] = {
+        label = "Cougar Avenue Parking",
+        takeVehicle = vector3(-1567.4369, -256.9650, 48.2645, 222.0499),
+        spawnPoint = vector4(-1561.7678, -254.8214, 48.2770, 142.0998),
+        putVehicle = vector3(-1574.9543, -255.3971, 48.5519, 4.1187),
+        showBlip = true,
+        blipName = "Public Parking",
+        blipNumber = 357,
+        type = 'public',
+        vehicle = 'car'
+    },
     ["spanishave"] = {
         label = "Spanish Ave Parking",
         takeVehicle = vector3(-1160.86, -741.41, 19.63),
